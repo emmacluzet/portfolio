@@ -811,7 +811,9 @@ nav.nav-overlay h1 {
 .form-row input::placeholder, .form-row textarea::placeholder { color: var(--td-2); }
 .form-row input:focus, .form-row textarea:focus { border-color: var(--td-vi); background: #1a2438; }
 .form-row textarea { height: 130px; resize: vertical; }
-
+#checkbox {
+    color : var(--td-2);
+}
 .btn-contact {
     display: inline-flex; 
     align-items: center; gap: 10px;
