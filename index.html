@@ -1,0 +1,655 @@
+<!-- Author : Emma Cluzet -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <title>Portfolio | Emma Cluzet</title>
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav class="nav-overlay" id="navbar">
+        <h1>Emma Cluzet</h1>
+        <div class="hamburger" id="hamburger-icon">☰</div>
+        <div class="menu" id="menu">
+            <p><a href="#pres-bts">BTS SIO</a></p>
+            <p><a href="#cv">CV</a></p>
+            <p><a href="#competences">Compétences</a></p>
+            <p><a href="#projet">Projets</a></p>
+            <p><a href="#veille">Veille technologique</a></p>
+            <p><a href="#localisation">Contact</a></p>
+        </div>
+    </nav>
+
+    <!-- HERO — original intact -->
+    <header class="hero-banner" id="accueil">
+        <div class="hero-content">
+            <p class="hero-eyebrow">Portfolio · 2025</p>
+            <h1 class="hero-title">
+                <span class="typed-text"></span>
+                <span class="cursor"> </span>
+            </h1>
+            <p class="hero-subtitle">Alternante au CEA · Étudiante en BTS SIO option SLAM</p>
+            <a href="#pres" class="hero-btn">Découvrir mon parcours</a>
+        </div>
+    </header>
+
+    <!-- 01 PRÉSENTATION -->
+    <section id="pres" class="s-light">
+        <div class="s-inner pres-layout">
+            <div class="pres-aside">
+                <span class="s-index">01</span>
+                <span class="s-label">Présentation</span>
+            </div>
+            <div class="pres-main">
+                <h2 class="s-title">Emma<br><em>Cluzet</em></h2>
+                <div class="pres-text">
+                    <p>Étudiante en deuxième année de BTS Services Informatiques aux Organisations, option SLAM — je me forme aux métiers du développement logiciel et de la conception d'applications.</p>
+                    <p>J'aime transformer un besoin en solution claire, utile et fiable. J'interviens sur des applications web comme sur des applications métiers, avec une attention particulière à la performance, la sécurité et la maintenabilité du code.</p>
+                    <p class="pres-highlight">Je souhaite évoluer en développement applicatif et poursuivre mes études en école d'ingénieur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 02 CV -->
+    <section class="s-dark" id="cv">
+        <div class="s-inner">
+            <div class="s-header-dark">
+                <span class="s-index dim">02</span>
+                <h2 class="s-title-dark">Curriculum <em>Vitae</em></h2>
+                <p class="s-desc">Disponible en consultation et en téléchargement.</p>
+            </div>
+            <div class="iframe-wrap dark">
+                <iframe class="doc-iframe" src="CV_Emma-Cluzet.pdf" title="CV Emma Cluzet"></iframe>
+            </div>
+            <a class="btn-amber" href="CV_Emma-Cluzet.pdf" download>
+                Télécharger le CV (PDF)
+                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><path d="M6.5 1v8M3.5 6l3 3 3-3M1 12h11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- 03 BTS SIO — réécriture narrative -->
+    <section id="pres-bts" class="s-light">
+        <div class="s-inner">
+
+            <div class="s-header-light">
+                <span class="s-index">03</span>
+                <h2 class="s-title">Le BTS SIO,<br><em>en pratique</em></h2>
+            </div>
+
+            <!-- Définition -->
+            <div class="bts-def-row">
+                <div class="bts-def-label">
+                    <span class="s-micro-label">Le diplôme</span>
+                </div>
+                <div class="bts-def-content">
+                    <p>Le <strong>BTS Services Informatiques aux Organisations</strong> est un diplôme national de niveau Bac+2 (RNCP niveau 5), délivré par le Ministère de l'Enseignement supérieur. Il forme des professionnels capables de concevoir, développer, maintenir et sécuriser des solutions informatiques au service des organisations.</p>
+                    <p>Sa particularité : il aborde l'informatique par le terrain. Méthodes Agile, travail en équipe, gestion de projet et alternance sont intégrés dès la formation — pas enseignés en théorie seulement.</p>
+                </div>
+            </div>
+
+            <!-- Les deux options -->
+            <h3 class="s-sub-title">Deux spécialités</h3>
+            <div class="bts-split">
+
+                <div class="bts-split-pane bts-split-pane--sisr">
+                    <div class="bts-split-head">
+                        <span class="bts-opt-tag">Option A</span>
+                        <h4>SISR</h4>
+                        <p class="bts-opt-full">Solutions d'Infrastructure,<br>Systèmes et Réseaux</p>
+                    </div>
+                    <p class="bts-opt-desc">Pour les futurs administrateurs systèmes et réseaux. SISR forme à la gestion des infrastructures — de la virtualisation à la cybersécurité en passant par l'administration Windows et Linux.</p>
+                    <ul class="bts-ul">
+                        <li>Administration systèmes</li>
+                        <li>Gestion des réseaux</li>
+                        <li>Cybersécurité</li>
+                        <li>Virtualisation</li>
+                        <li>Supervision des parcs</li>
+                    </ul>
+                    <div class="bts-debouches">
+                        <span class="s-micro-label">Débouchés</span>
+                        <p>Technicien systèmes &amp; réseaux · Admin réseau · Support helpdesk · Analyste cybersécurité</p>
+                    </div>
+                </div>
+
+                <div class="bts-split-pane bts-split-pane--slam">
+                    <div class="bts-split-badge">Mon option</div>
+                    <div class="bts-split-head">
+                        <span class="bts-opt-tag">Option B</span>
+                        <h4>SLAM</h4>
+                        <p class="bts-opt-full">Solutions Logicielles et<br>Applications Métiers</p>
+                    </div>
+                    <p class="bts-opt-desc">Pour les futurs développeurs. SLAM forme au cycle complet du développement applicatif : de l'analyse du besoin à la mise en production, en passant par la conception, le développement et les tests.</p>
+                    <ul class="bts-ul">
+                        <li>Programmation (Python, C#, PHP…)</li>
+                        <li>Développement web &amp; mobile</li>
+                        <li>Analyse des besoins clients</li>
+                        <li>Gestion de bases de données (SQL)</li>
+                        <li>Conception d'applications</li>
+                    </ul>
+                    <div class="bts-debouches">
+                        <span class="s-micro-label">Débouchés</span>
+                        <p>Développeur web / logiciel · Développeur mobile · Analyste programmeur · Intégrateur</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 04 COMPÉTENCES -->
+    <section id="competences" class="s-dark">
+        <div class="s-inner">
+            <div class="s-header-dark">
+                <span class="s-index dim">04</span>
+                <h2 class="s-title-dark">Compé<em>tences</em></h2>
+            </div>
+            <div class="skills-mosaic">
+                <div class="skill-block">
+                    <h3 class="skill-block-title">Langages</h3>
+                    <div class="skill-tags">
+                        <span>HTML / CSS</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>C# (.NET)</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <div class="skill-block">
+                    <h3 class="skill-block-title">Développement</h3>
+                    <div class="skill-tags">
+                        <span>Applications desktop</span>
+                        <span>Développement web</span>
+                        <span>Interfaces utilisateurs</span>
+                        <span>Gestion d'erreurs</span>
+                        <span>Tests applicatifs</span>
+                    </div>
+                </div>
+                <div class="skill-block">
+                    <h3 class="skill-block-title">Outils</h3>
+                    <div class="skill-tags">
+                        <span>Git / GitHub</span>
+                        <span>Visual Studio</span>
+                        <span>VS Code</span>
+                        <span>PowerShell</span>
+                        <span>API REST</span>
+                    </div>
+                </div>
+                <div class="skill-block">
+                    <h3 class="skill-block-title">Méthodes</h3>
+                    <div class="skill-tags">
+                        <span>Agile / Scrum</span>
+                        <span>Analyse des besoins</span>
+                        <span>Documentation</span>
+                        <span>Conception applicative</span>
+                        <span>Travail en équipe</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 05 E5 -->
+    <section id="e6" class="s-light">
+        <div class="s-inner">
+            <div class="s-header-light">
+                <span class="s-index">05</span>
+                <h2 class="s-title">Épreuve <em>E5</em></h2>
+            </div>
+            <p class="s-desc-light">Tableau de synthèse disponible en PDF.</p>
+            <div class="iframe-wrap light">
+                <iframe class="doc-iframe" src="8 - ANNEXE VI.1 - EPREUVE E5 TABLEAU DE SYNTHESE - BTS SIO 2026 - Tableau de synthèse Épreuve E5.pdf" title="Tableau synthèse E5"></iframe>
+            </div>
+            <a class="btn-violet" href="8 - ANNEXE VI.1 - EPREUVE E5 TABLEAU DE SYNTHESE - BTS SIO 2026 - Tableau de synthèse Épreuve E5.pdf" download>
+                Télécharger le fichier
+                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><path d="M6.5 1v8M3.5 6l3 3 3-3M1 12h11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- 06 PROJETS -->
+    <section id="projet" class="s-dark">
+        <div class="s-inner">
+            <div class="s-header-dark">
+                <span class="s-index dim">06</span>
+                <h2 class="s-title-dark">Pro<em>jets</em></h2>
+            </div>
+            <div class="projets-grid">
+                <article class="projet-card" data-popup="popup-calculatrice" tabindex="0" role="button" aria-label="Voir le projet Calculatrice Python">
+                    <div class="projet-img">
+                        <img src="https://images.unsplash.com/photo-1668930185267-1f3c19851b5b?q=80&w=800&auto=format&fit=crop" alt="Calculatrice Python">
+                        <div class="projet-hover-label">Voir le projet →</div>
+                    </div>
+                    <div class="projet-info">
+                        <span class="projet-tech">Python · Tkinter · Git</span>
+                        <h3>Calculatrice Python</h3>
+                        <p>Application desktop avec interface graphique et gestion robuste des erreurs.</p>
+                    </div>
+                </article>
+                <article class="projet-card" data-popup="popup-allumettes" tabindex="0" role="button" aria-label="Voir le projet Jeu de Nîm">
+                    <div class="projet-img">
+                        <img src="https://www.jeuxpicards.org/batonnets/images/allumettes.jpg" alt="Jeu de Nîm">
+                        <div class="projet-hover-label">Voir le projet →</div>
+                    </div>
+                    <div class="projet-info">
+                        <span class="projet-tech">C# · .NET · Windows Forms</span>
+                        <h3>Jeu de Nîm</h3>
+                        <p>Jeu contre l'ordinateur avec logique métier et règles paramétrables.</p>
+                    </div>
+                </article>
+                <article class="projet-card" data-popup="popup-site" tabindex="0" role="button" aria-label="Voir le projet Site vitrine">
+                    <div class="projet-img">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop" alt="Site vitrine">
+                        <div class="projet-hover-label">Voir le projet →</div>
+                    </div>
+                    <div class="projet-info">
+                        <span class="projet-tech">HTML · CSS · JavaScript</span>
+                        <h3>NewTech (EN COURS)</h3>
+                        <p>Site responsive e-commerce avec navigation fluide et animations CSS.</p>
+                    </div>
+                </article>
+                <article class="projet-card" data-popup="popup-nexilock" tabindex="0" role="button" aria-label="Voir le projet NexiLock">
+                    <div class="projet-img">
+                        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=800&auto=format&fit=crop" alt="NexiLock">
+                        <div class="projet-hover-label">Voir le projet →</div>
+                    </div>
+                    <div class="projet-info">
+                    <span class="projet-tech">Java 21 · JavaFX · SQLite · Maven</span>
+                        <h3>NexiLock (EN COURS)</h3>
+                        <p>Gestionnaire et générateur de mots de passe sécurisé.</p>
+                    </div>
+                </article>
+                <article class="projet-card" data-popup="popup-srr" tabindex="0" role="button" aria-label="Voir le projet SRR">
+                    <div class="projet-img">
+                        <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?q=80&w=800&auto=format&fit=crop" alt="SRR - Réservation de ressources">
+                        <div class="projet-hover-label">Voir le projet →</div>
+                    </div>
+                    <div class="projet-info">
+                        <span class="projet-tech">Java 17 · JavaFX · MySQL · Maven</span>
+                        <h3>SRR (EN COURS)</h3>
+                        <p>Système de Réservation de Ressources.</p>
+                    </div>
+                </article>
+                <article class="projet-card" data-popup="popup-powershell" tabindex="0" role="button" aria-label="Voir le projet Script PowerShell">
+                    <div class="projet-img">
+                        <img src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?q=80&w=800&auto=format&fit=crop" alt="Script PowerShell">
+                        <div class="projet-hover-label">Voir le projet →</div>
+                    </div>
+                    <div class="projet-info">
+                        <span class="projet-tech">PowerShell · SFTP · SQL · K2</span>
+                        <h3>Script PowerShell (EN COURS)</h3>
+                        <p>Intégration de fiches clients dans SAP.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 07 VEILLE -->
+    <section class="s-light" id="veille">
+        <div class="s-inner">
+            <div class="s-header-light">
+                <span class="s-index">07</span>
+                <h2 class="s-title">Veille<br><em>technologique</em></h2>
+            </div>
+            <div class="veille-topic-block">
+                <p class="veille-topic-eyebrow">Sujet de veille 2024–2026</p>
+                <h3 class="veille-topic-title">Green IT &amp; impact de l'IA sur l'environnement</h3>
+                <p>Le développement fulgurant de l'IA représente un paradoxe environnemental majeur. Si elle est un levier pour la transition écologique, son empreinte réelle — consommation électrique, eau, extraction de minéraux — soulève des questions d'éthique technologique cruciales.</p>
+            </div>
+            <div class="veille-grid">
+                <article class="veille-card">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=800&auto=format&fit=crop" alt="Impacts environnementaux" loading="lazy">
+                    <div class="veille-card-body">
+                        <span class="veille-source">GreenIT</span>
+                        <h3>Impacts environnementaux de l'IA</h3>
+                        <p>Analyse des impacts ressources, énergie et eau en Europe et dans le monde.</p>
+                        <a href="https://www.greenit.fr/2024/08/15/quels-sont-les-impacts-environnementaux-de-lia/" target="_blank" class="veille-link">Lire l'article →</a>
+                    </div>
+                </article>
+                <article class="veille-card">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop" alt="Minéraux" loading="lazy">
+                    <div class="veille-card-body">
+                        <span class="veille-source">Vie Publique</span>
+                        <h3>Impacts minéraux et sanitaires</h3>
+                        <p>L'IA aggrave la tension sur les métaux critiques et génère des pollutions à la fabrication.</p>
+                        <a href="https://www.vie-publique.fr/en-bref/294248-limpact-environnemental-de-lintelligence-artificielle" target="_blank" class="veille-link">Lire l'article →</a>
+                    </div>
+                </article>
+                <article class="veille-card">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop" alt="Sobriété" loading="lazy">
+                    <div class="veille-card-body">
+                        <span class="veille-source">Hardis Group</span>
+                        <h3>Vers une intelligence frugale</h3>
+                        <p>Sobriété par le design et distillation de modèles pour réduire l'empreinte carbone.</p>
+                        <a href="https://www.hardis-group.com/news/numerique-responsable-2026-enjeux-cles/" target="_blank" class="veille-link">Lire l'article →</a>
+                    </div>
+                </article>
+                <article class="veille-card">
+                    <img src="https://images.unsplash.com/photo-1548337138-e87d889cc369?q=80&w=800&auto=format&fit=crop" alt="Eau" loading="lazy">
+                    <div class="veille-card-body">
+                        <span class="veille-source">Jedha</span>
+                        <h3>Le coût en eau des requêtes IA</h3>
+                        <p>35 interactions IA consomment l'équivalent d'une bouteille d'eau pour le refroidissement.</p>
+                        <a href="https://www.jedha.co/formation-ia/impact-environnemental-ia-rapport" target="_blank" class="veille-link">Lire l'article →</a>
+                    </div>
+                </article>
+                <article class="veille-card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop" alt="Rapport ACV" loading="lazy">
+                    <div class="veille-card-body">
+                        <span class="veille-source">GreenIT · Rapport</span>
+                        <h3>Rapport ACV complet 2025</h3>
+                        <p>Impacts sanitaires de l'IA mondiale avec projections pour 2030.</p>
+                        <a href="https://www.greenit.fr/wp-content/uploads/2025/12/202510-rapport-etude-impacts-environnementaux-intelligence-artificielle-dans-le-monde-association-green-it-compressed.pdf" target="_blank" class="veille-link">Lire le rapport →</a>
+                    </div>
+                </article>
+                <article class="veille-card">
+                    <img src="https://images.unsplash.com/photo-1532187875605-2fe358511423?q=80&w=800&auto=format&fit=crop" alt="Recherche" loading="lazy">
+                    <div class="veille-card-body">
+                        <span class="veille-source">ICCK · Étude</span>
+                        <h3>Sustainable Computing</h3>
+                        <p>Dernières recherches sur l'optimisation des algorithmes pour un calcul durable.</p>
+                        <a href="https://www.icck.org/article/html/tsc.2025.767094" target="_blank" class="veille-link">Consulter l'étude →</a>
+                    </div>
+                </article>
+            </div>
+            <div class="veille-objectif">
+                <span class="s-micro-label">Objectif de la veille</span>
+                <p>Suivre l'évolution des pratiques numériques responsables et analyser l'impact écologique du développement logiciel et de l'IA sur les infrastructures informatiques.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 08 CONTACT -->
+    <section id="contact-map" class="s-dark">
+        <div class="s-inner">
+            <div class="s-header-dark">
+                <span class="s-index dim">08</span>
+                <h2 class="s-title-dark">Con<em>tact</em></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-form-col">
+                    <p class="contact-intro">Une question, une opportunité ? N'hésitez pas à me contacter.</p>
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-row">
+                            <label for="c-name">Nom</label>
+                            <input type="text" id="c-name" name="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="c-email">Email</label>
+                            <input type="email" id="c-email" name="email" placeholder="votre@email.com" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="c-msg">Message</label>
+                            <textarea id="c-msg" name="message" placeholder="Votre message…" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-contact">
+                            Envoyer
+                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true"><path d="M1 6.5h11M7 1.5l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-map-col">
+                    <p class="contact-intro" id="localisation">CEA Paris-Saclay</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7053.411190963236!2d2.1439704040835994!3d48.725673477501395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67f10a5afadf7%3A0x39454050073e967b!2sCEA%20Paris-Saclay!5e1!3m2!1sfr!2sfr!4v1765486483115!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="CEA Paris-Saclay"></iframe>
+                    <div class="contact-socials">
+                        <a href="https://www.linkedin.com/in/emma-cluzet-434610293/" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/emmacluzet" target="_blank">GitHub</a>
+                        <a href="mailto:cluzetemma@gmail.com">cluzetemma@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER — original intact -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <h3>Emma Cluzet</h3>
+            <p class="footer-text">
+                Portfolio personnel - BTS SIO option SLAM.
+                Développement web en HTML/CSS et JavaScript.
+            </p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/emma-cluzet-434610293/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/emmacluzet" target="_blank">GitHub</a>
+                <a href="mailto:cluzetemma@gmail.com">cluzetemma@gmail.com</a>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Emma Cluzet - Tous droits réservés</p>
+                <a href="politique-confidentialite.html">Politique de confidentialité</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- POPUPS -->
+    <div class="popup-overlay" id="popup-calculatrice">
+        <div class="popup-box">
+            <button class="popup-close" aria-label="Fermer">&times;</button>
+            <span class="popup-tag">Python · Tkinter · Git</span>
+            <h2>Calculatrice Python</h2>
+            <p>Application desktop réalisée en BTS SIO SLAM permettant d'effectuer des calculs simples via une interface graphique sécurisée.</p>
+            <div class="popup-cols">
+                <div>
+                    <h4>Compétences BTS SLAM</h4>
+                    <ul>
+                        <li>Développer une solution applicative</li>
+                        <li>Concevoir une interface utilisateur</li>
+                        <li>Tester et valider une application</li>
+                        <li>Documenter une solution</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Fonctionnalités</h4>
+                    <ul>
+                        <li>Opérations mathématiques</li>
+                        <li>Gestion des exceptions</li>
+                        <li>Interface Tkinter</li>
+                        <li>Ergonomie &amp; robustesse</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="popup-meta-row">
+                <div>
+                    <span class="popup-meta-label">Difficultés</span>
+                    <p>Contrôle des saisies, séparation logique / interface</p>
+                </div>
+                <div>
+                    <span class="popup-meta-label">Améliorations envisagées</span>
+                    <p>Historique des calculs, thème sombre, export PDF</p>
+                </div>
+            </div>
+            <a href="projets/projetCalculatrice.zip" class="popup-download" download>Télécharger le projet</a>
+        </div>
+    </div>
+    <div class="popup-overlay" id="popup-allumettes">
+        <div class="popup-box">
+            <button class="popup-close" aria-label="Fermer">&times;</button>
+            <span class="popup-tag">C# · .NET · Windows Forms</span>
+            <h2>Jeu de Nîm</h2>
+            <p>Jeu contre l'ordinateur intégrant logique métier, interface graphique et gestion d'événements.</p>
+            <div class="popup-cols">
+                <div>
+                    <h4>Compétences BTS SLAM</h4>
+                    <ul>
+                        <li>Implémenter une logique métier</li>
+                        <li>Gérer les événements utilisateur</li>
+                        <li>Tester et corriger une application</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Fonctionnalités</h4>
+                    <ul>
+                        <li>Gestion des tours</li>
+                        <li>Règles paramétrables</li>
+                        <li>Détection de fin de partie</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="popup-meta-row">
+                <div>
+                    <span class="popup-meta-label">Difficultés</span>
+                    <p>Logique de jeu, validation des saisies</p>
+                </div>
+                <div>
+                    <span class="popup-meta-label">Améliorations envisagées</span>
+                    <p>Mode multijoueur, statistiques, IA améliorée</p>
+                </div>
+            </div>
+            <a href="#" class="popup-download" download>Télécharger le projet</a>
+        </div>
+    </div>
+    <div class="popup-overlay" id="popup-site">
+        <div class="popup-box">
+            <button class="popup-close" aria-label="Fermer">&times;</button>
+            <span class="popup-tag">HTML · CSS · JavaScript</span>
+            <h2>NewTech</h2>
+            <p>Site web responsive présentant une activité e-commerce avec navigation fluide et intégration moderne.</p>
+            <div class="popup-cols">
+                <div>
+                    <h4>Compétences</h4>
+                    <ul><li>Intégration web responsive</li><li>Navigation fluide</li><li>Accessibilité</li></ul>
+                </div>
+                <div>
+                    <h4>Fonctionnalités</h4>
+                    <ul><li>Design responsive</li><li>Animations CSS</li><li>Formulaire de contact</li></ul>
+                </div>
+            </div>
+            <a href="#" class="popup-download" download>Télécharger le projet</a>
+        </div>
+    </div>
+
+    <!-- POPUP NEXILOCK -->
+    <div class="popup-overlay" id="popup-nexilock">
+        <div class="popup-box">
+            <button class="popup-close" aria-label="Fermer">&times;</button>
+            <span class="popup-tag">Java 21 · JavaFX · SQLite · Maven</span>
+            <h2>NexiLock</h2>
+            <p>Application desktop de gestion sécurisée d'identifiants. Coffre-fort numérique local avec chiffrement AES-256-GCM, dérivation de clé PBKDF2 et interface JavaFX en système de cartes. Projet réalisé en équipe de 3 au CFA Doranco.</p>
+            <div class="popup-cols">
+                <div>
+                    <h4>Compétences BTS SLAM</h4>
+                    <ul>
+                        <li>Développer une solution applicative</li>
+                        <li>Gérer la sécurité des données</li>
+                        <li>Travailler en mode projet (Scrum)</li>
+                        <li>Rédiger la documentation &amp; les tests</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Fonctionnalités</h4>
+                    <ul>
+                        <li>CRUD complet des identifiants</li>
+                        <li>Chiffrement AES-256-GCM + PBKDF2</li>
+                        <li>Générateur de mots de passe (8–32 car.)</li>
+                        <li>Fonctionnement 100% hors-ligne</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="popup-meta-row">
+                <div>
+                    <span class="popup-meta-label">Mon rôle</span>
+                    <p>Responsable documentation, cahier des charges et tests unitaires (JUnit 5)</p>
+                </div>
+                <div>
+                    <span class="popup-meta-label">Améliorations envisagées</span>
+                    <p>Export chiffré de la base, synchronisation cloud optionnelle, application mobile</p>
+                </div>
+            </div>
+            <a href="https://github.com/emmacluzet/NexiLock" class="popup-download" download>Télécharger le projet</a>
+        </div>
+    </div>
+
+    <!-- POPUP SRR -->
+    <div class="popup-overlay" id="popup-srr">
+        <div class="popup-box">
+            <button class="popup-close" aria-label="Fermer">&times;</button>
+            <span class="popup-tag">Java 17 · JavaFX · MySQL · Maven · MVC</span>
+            <h2>SRR - Système de Réservation de Ressources</h2>
+            <p>Application desktop Java permettant à une organisation de gérer la réservation de ses salles et matériels pédagogiques. Architecture MVC stricte avec couche DAO, gestion des conflits de créneaux et profils utilisateur / administrateur.</p>
+            <div class="popup-cols">
+                <div>
+                    <h4>Compétences BTS SLAM</h4>
+                    <ul>
+                        <li>Concevoir une architecture MVC + DAO</li>
+                        <li>Développer une interface JavaFX (FXML)</li>
+                        <li>Gérer une base de données MySQL</li>
+                        <li>Gérer les droits et profils utilisateurs</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Fonctionnalités</h4>
+                    <ul>
+                        <li>Authentification &amp; rôles (admin / user)</li>
+                        <li>CRUD ressources (côté admin)</li>
+                        <li>Réservation avec détection de conflits</li>
+                        <li>Annulation de réservation</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="popup-meta-row">
+                <div>
+                    <span class="popup-meta-label">Difficultés rencontrées</span>
+                    <p>Implémentation de la contrainte métier anti-doublon côté SQL, navigation entre vues FXML avec passage de données</p>
+                </div>
+                <div>
+                    <span class="popup-meta-label">Améliorations envisagées</span>
+                    <p>Export PDF des récapitulatifs, barre de filtre par type de ressource, vue calendrier</p>
+                </div>
+            </div>
+            <a href="https://github.com/emmacluzet/SRR-TechAcademy" class="popup-download" download>Télécharger le projet</a>
+        </div>
+    </div>
+
+    <!-- POPUP SCRIPT POWERSHELL -->
+    <div class="popup-overlay" id="popup-powershell">
+        <div class="popup-box">
+            <button class="popup-close" aria-label="Fermer">&times;</button>
+            <span class="popup-tag">PowerShell · SFTP · SQL · K2</span>
+            <h2>Script PowerShell — Intégration SAP</h2>
+            <p>Script d'automatisation développé en alternance au CEA Paris-Saclay. Il récupère des fiches clients depuis un serveur SFTP, les traite en local, puis les intègre dans la base de données K2 via une boucle de requêtes SQL.</p>
+            <div class="popup-cols">
+                <div>
+                    <h4>Compétences BTS SLAM</h4>
+                    <ul>
+                        <li>Automatiser des tâches d'exploitation</li>
+                        <li>Interroger une base de données (SQL)</li>
+                        <li>Manipuler et valider des données</li>
+                        <li>Documenter un script de production</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Fonctionnalités</h4>
+                    <ul>
+                        <li>Récupération des fichiers via SFTP</li>
+                        <li>Validation et nettoyage local des fiches</li>
+                        <li>Boucle de requêtes SQL vers la base K2</li>
+                        <li>Journal d'exécution (log des erreurs)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="popup-meta-row">
+                <div>
+                    <span class="popup-meta-label">Difficultés rencontrées</span>
+                    <p>Connexion sécurisée au serveur SFTP, gestion des encodages de fichiers, reprise sans doublon en cas d'interruption</p>
+                </div>
+                <div>
+                    <span class="popup-meta-label">Améliorations envisagées</span>
+                    <p>Planification automatique (Task Scheduler), interface de suivi, extension à d'autres flux de données</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js" defer></script>
+
+</body>
+</html>
